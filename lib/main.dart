@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 void main() {
   runApp(const MyApp());
@@ -85,7 +86,7 @@ class _InfiniteListPageState extends State<InfiniteListPage> {
             title: Text('Item $item'),
             onTap: () {
               Navigator.of(context).push(
-                MaterialPageRoute(
+                CupertinoPageRoute(
                   builder: (_) => DetailPage(item: item),
                 ),
               );
