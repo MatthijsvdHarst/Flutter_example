@@ -1,6 +1,7 @@
 # flutter_application_1
 
-A new Flutter project.
+A simple Flutter example that demonstrates an infinite scrolling
+list and a detail page.
 
 ## Getting Started
 
